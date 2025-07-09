@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --c1: #561C24;
+    --c2: #6D2932;
+    --c3: #C7B7A3;
+    --c4: #E8D8C4;
+    --c5: #1e1e1e;
+    --text: #ffffff;
+    --px8: 0.5rem;
+    --px16: 1rem;
+    --px20: 1.25rem;
+    --px24: 1.5rem;
+    --px32: 2rem;
+    --px40: 2.5rem;
+    --px48: 3rem;
+    --px56: 3.5rem;
+    --px64: 4rem;
+    --px72: 4.5rem;
+    --px80: 5rem;
+    --px84: 5.25rem;
+    --px88: 5.5rem;
+    --px96: 6rem;
+    --px104: 6.5rem;
+    --px112: 7rem;
+    --px120: 7.5rem;
+    --px128: 8rem;
+    --px160: 10rem;
+    --px192: 12rem;
+    --font1: "Poltawski Nowy", serif;
+    --font2: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ini penting untuk memastikan ukuran elemen sesuai ekspektasi */
+}
+
+body {
+    background-color: var(--text);
+    color: var(--c5);
+}
+
+/* content */
+.banner {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content_about {
+    padding: var(--px64) var(--px160);
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: var(--px64);
+}
+
+.content_about .content_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.content_about .left {
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--px16);
+}
+.content_about .list_about {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: var(--px16);
+    /* background-color: chocolate; */
+}
+.content_about .list_about .line {
+    width: 5.625rem;
+    height: 0.125rem;
+}    
+.content_about .list_about .text {
+    font-family: var(--font2);
+    color: var(--c2);
+}
+.content_about .content_top p {
+    font-family: var(--font1);
+    font-size: var(--px40);
+    color: var(--c2);
+}
+.content_about .content_top .descrip {
+    padding-left: var(--px192);
+    font-family: var(--font2);
+    font-size: var(--px16);
+    text-align: justify;
+}
+.content_about .content_top .descrip span {
+    font-family: var(--font1);
+    font-size: var(--px20);
+    color: var(--c2);
+}
+.content_about .right {
+    width: 310px;
+    height: 349px;
+}
+
+.content_mid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--px16);
+    font-family: var(--font2);
+}
+.content_mid .text1 {
+    width: 30%;
+    font-size: var(--px32);
+    text-align: justify;
+}
+.content_mid .text2 {
+    padding-left: 45%;
+    font-size: var(--px24);
+    text-align: justify;
+}
+
+.content_bot {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--px120);
+}
+.content_bot #one {
+    width: 288px;
+    height: auto;
+}
+.content_bot #two {
+    width: 474px;
+    height: auto;
+    padding-top: var(--px120);
+}
+.content_bot #three {
+    width: 544px;
+    height: auto;
+}
+.content_bot #four {
+    width: 489px;
+    height: auto;
+    padding-top: var(--px120);
+}
+/* content */

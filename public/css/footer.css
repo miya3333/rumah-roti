@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --c1: #561C24;
+    --c2: #6D2932;
+    --c3: #C7B7A3;
+    --c4: #E8D8C4;
+    --text: #ffffff;
+    --px8: 0.5rem;
+    --px16: 1rem;
+    --px20: 1.25rem;
+    --px24: 1.5rem;
+    --px32: 2rem;
+    --px36: 2.25rem;
+    --px40: 2.5rem;
+    --px48: 3rem;
+    --px56: 3.5rem;
+    --px64: 4rem;
+    --px72: 4.5rem;
+    --px80: 5rem;
+    --px84: 5.25rem;
+    --px88: 5.5rem;
+    --px96: 6rem;
+    --px104: 6.5rem;
+    --px112: 7rem;
+    --px120: 7.5rem;
+    --px128: 8rem;
+    --px160: 10rem;
+    --font1: "Poltawski Nowy", serif;
+    --font2: "Poppins", sans-serif;
+}
+
+/* footer start */
+footer {
+    height: 304px;
+    padding: 4rem 10rem;
+    background-color: var(--c2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 79px; /* buat gap sementara nanti tinggal dihapus aja!!!*/
+}
+
+a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+img {
+    height: 83px;
+}
+.name_logo {
+    width: 7.625rem;
+}
+.nl_home {
+    font-size: var(--px32);
+    font-family: var(--font1);
+    text-align: center;
+}
+.nl_bread {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    font-family: var(--font2);
+}
+
+.note {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* background-color: aquamarine; */
+}
+
+.note a:hover {
+    color: var(--c4);
+}
+
+.note .detail,
+.note .contact,
+.note .follow {
+    display: flex;
+    flex-direction: column;
+    gap: var(--px16);
+}
+
+.note .row2,
+.note .column {
+    display: flex;
+    flex-direction: column;
+    gap: var(--px8);
+}
+
+.note .detail {
+    width: fit-content;
+    
+}
+.note .title {
+    font-size: var(--px32);
+    font-family: var(--font2);
+    font-weight: bold;
+    color: var(--c3);
+}
+.note .column, .note .row {
+    font-size: var(--px20);
+    font-family: var(--font2);
+    color: var(--text);
+}
+.note .row {
+    display: flex;
+    flex-direction: row;
+    gap: var(--px8);
+}
+.note .follow .sosmed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.note .follow .sosmed a:hover .sm path {
+    fill: var(--c3);
+    transition: fill 0.2s ease;
+    -webkit-transition: fill 0.2s ease;
+    -moz-transition: fill 0.2s ease;
+    -ms-transition: fill 0.2s ease;
+    -o-transition: fill 0.2s ease;
+}
+/* footer end */

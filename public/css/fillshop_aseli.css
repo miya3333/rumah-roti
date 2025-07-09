@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --c1: #561C24;
+    --c2: #6D2932;
+    --c3: #C7B7A3;
+    --c4: #E8D8C4;
+    --c5: #1e1e1e;
+    --text: #ffffff;
+    --text2: #757575;
+    --px2: 0.125rem;
+    --px8: 0.5rem;
+    --px12: 0.75rem;
+    --px16: 1rem;
+    --px20: 1.25rem;
+    --px24: 1.5rem;
+    --px32: 2rem;
+    --px40: 2.5rem;
+    --px48: 3rem;
+    --px56: 3.5rem;
+    --px64: 4rem;
+    --px72: 4.5rem;
+    --px80: 5rem;
+    --px84: 5.25rem;
+    --px88: 5.5rem;
+    --px96: 6rem;
+    --px104: 6.5rem;
+    --px112: 7rem;
+    --px120: 7.5rem;
+    --px128: 8rem;
+    --px160: 10rem;
+    --px192: 12rem;
+    --font1: "Poltawski Nowy", serif;
+    --font2: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ini penting untuk memastikan ukuran elemen sesuai ekspektasi */
+}
+
+body {
+    background-color: var(--text);
+    color: var(--c5);
+    font-family: var(--font2);
+}
+.content-shop {
+    padding: var(--px64) var(--px160);
+    display: flex;
+    flex-direction: column;
+    gap: var(--px64);
+}
+.content-product {
+    /* padding: 0 var(--px160) var(--px64) var(--px160); */
+    display: flex;
+    flex-direction: column;
+    gap: var(--px64);
+}
+
+/* product */
+.content_danish {
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--px32);
+}
+.content_danish .danish_cake {
+    width: 352px;
+    height: fit-content;
+    padding: var(--px12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--px16);
+    border: var(--px2) solid var(--c2);
+    border-radius: var(--px24);
+    -webkit-border-radius: var(--px24);
+    -moz-border-radius: var(--px24);
+    -ms-border-radius: var(--px24);
+    -o-border-radius: var(--px24);
+    cursor: pointer; /* Menambahkan cursor pointer untuk tombol */
+}
+.content_danish .danish_cake:hover {
+    /*font-weight: 500;
+    */animation: waveEffect 1s infinite ease-in-out;
+    -webkit-animation: waveEffect 1s infinite ease-in-out;
+}
+.content_danish .danish_cake img {
+    width: 328px;
+    height: 325px;
+    object-fit: cover;
+    border-radius: var(--px16);
+    -webkit-border-radius: var(--px16);
+    -moz-border-radius: var(--px16);
+    -ms-border-radius: var(--px16);
+    -o-border-radius: var(--px16);
+}
+.content_danish .danish_cake p {
+    width: 100%;
+    color: var(--c5);
+    font-size: var(--px20);
+    font-family: var(--font2);
+    text-align: center;
+}
+.content_danish .danish_cake .harga {
+    width: 100%;
+    font-weight: 700;
+}
+@keyframes waveEffect {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Efek naik-turun seperti ombak */
+    }
+}
+/* product */
+
+.product-price{
+    display: flex;
+    flex-direction: column;
+    gap: var(--px16);
+}
+.product-price .title {
+    font-family: var(--font2);
+    font-weight: 700;
+    font-size: var(--px32);
+    color: var(--c1);
+}
+
+/* dropdown lokasi */
+.dropdown {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--px16);
+    font-family: var(--font2);
+    color: var(--text);
+    background-color: var(--c1);
+    padding: var(--px16);
+    border-radius: var(--px8);
+}
+
+.dropdown label {
+    display: block;
+    font-size: var(--px16);
+    color: var(--text);
+}
+
+.dropdown select {
+    width: max-content;
+    padding: var(--px12);
+    font-size: var(--px16);
+    border: none;
+    border-radius: var(--px8);
+    background-color: var(--c2);
+    color: var(--text);
+    font-family: var(--font2);
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg fill='%23ffffff' viewBox='0 0 20 20'%3E%3Cpath d='M5.516 7.548l4.484 4.484 4.484-4.484L16 9.032l-6 6-6-6z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right var(--px12) center;
+    background-size: var(--px16);
+}
+
+.dropdown select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--c3);
+}
+/* dropdown lokasi */
+
+/* scroll ke atas */
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--c4);
+    color: #fff;
+    text-decoration: none;
+    padding: var(--px16);
+    border-radius: 50%;
+    font-size: 20px;
+    z-index: 999;
+}
+
+.scroll-to-top:hover {
+    background-color: var(--c3);
+}
+
+/* Bikin scroll smooth */
+html {
+    scroll-behavior: smooth;
+}
+/* scroll ke atas */
+
+/* detail panel untuk menambahkan ke keranjang */
+.detail-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30rem; /* = 500px jika root font-size 16px */
+    height: 100vh;
+    background: #fff;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    z-index: 999;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+}
+
+.detail-panel.show {
+    transform: translateX(0);
+}
+
+.detail-panel.hidden {
+    display: none;
+}
+
+.detail-panel img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+.quantity-control button {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+}
+
+#add-to-cart {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+/* detail panel untuk menambahkan ke keranjang */

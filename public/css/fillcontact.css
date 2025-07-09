@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --c1: #561C24;
+    --c2: #6D2932;
+    --c3: #C7B7A3;
+    --c4: #E8D8C4;
+    --c5: #1e1e1e;
+    --text: #ffffff;
+    --text2: #757575;
+    --px2: 0.125rem;
+    --px8: 0.5rem;
+    --px16: 1rem;
+    --px20: 1.25rem;
+    --px24: 1.5rem;
+    --px32: 2rem;
+    --px40: 2.5rem;
+    --px48: 3rem;
+    --px56: 3.5rem;
+    --px64: 4rem;
+    --px72: 4.5rem;
+    --px80: 5rem;
+    --px84: 5.25rem;
+    --px88: 5.5rem;
+    --px96: 6rem;
+    --px104: 6.5rem;
+    --px112: 7rem;
+    --px120: 7.5rem;
+    --px128: 8rem;
+    --px160: 10rem;
+    --px192: 12rem;
+    --font1: "Poltawski Nowy", serif;
+    --font2: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ini penting untuk memastikan ukuran elemen sesuai ekspektasi */
+}
+
+body {
+    background-color: var(--text);
+    color: var(--c5);
+    font-family: var(--font2);
+}
+
+/* content */
+.content_contact {
+    padding: var(--px64) var(--px160);
+    display: flex;
+    flex-direction: column;
+    gap: var(--px64);
+}
+.content_contact .title {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: var(--px16);
+}
+.content_contact .title .line {
+    width: 5.625rem;
+    height: 0.125rem;
+}
+.content_contact .title .text {
+    font-family: var(--font2);
+    color: var(--c2);
+}
+
+/* input kontak */
+.layer_one {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.layer_one img {
+    width: 472px;
+    height: 630px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: var(--px16);
+    -webkit-border-radius: var(--px16);
+    -moz-border-radius: var(--px16);
+    -ms-border-radius: var(--px16);
+    -o-border-radius: var(--px16);
+}
+
+.layer_one .form {
+    width: 100%;
+    padding-right: var(--px64);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: var(--px16);
+}
+
+.layer_one .form .input {
+    display: flex;
+    flex-direction: column;
+    gap: var(--px8);
+    border-bottom: var(--px2) solid var(--c2);
+}
+
+.layer_one .form .input .title {
+    font-size: var(--px20);
+    color: var(--c2);
+}
+
+.layer_one .form .input .sub-title {
+    font-size: var(--px20);
+    color: var(--text2);
+    font-family: var(--font2); /* Pastikan font sesuai */
+    border: none; /* Menghilangkan border default input */
+    background: transparent; /* Latar belakang transparan */
+    outline: none; /* Menghilangkan outline saat fokus */
+    padding: var(--px8) 0; /* Padding untuk konsistensi */
+}
+
+.layer_one .form .input .sub-title:focus {
+    border-bottom: var(--px2) solid var(--c3); /* Garis bawah saat fokus */
+}
+
+.layer_one .form .input textarea.sub-title {
+    resize: vertical; /* Hanya bisa resize vertikal */
+    min-height: 100px; /* Tinggi minimum untuk textarea */
+}
+
+.layer_one .form .btn {
+    width: fit-content;
+    margin-top: var(--px32);
+    padding: var(--px16) var(--px40);
+    font-size: var(--px20);
+    color: var(--c2);
+    border: var(--px2) solid var(--c2);
+    border-radius: var(--px16);
+    -webkit-border-radius: var(--px16);
+    -moz-border-radius: var(--px16);
+    -ms-border-radius: var(--px16);
+    -o-border-radius: var(--px16);
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    cursor: pointer; /* Menambahkan cursor pointer untuk tombol */
+}
+.layer_one .form .btn:hover {
+    color: var(--text);
+    background-color: var(--c2);
+    transform: scale(1.05); /* Efek sedikit membesar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+}
+/* input kontak */
+
+.layer_two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--px16);
+}
+.layer_two .text {
+    width: 90%;
+    font-size: var(--px56);
+    text-align: center;
+}
+.layer_two .text .black {
+    color: var(--c5);
+}
+.layer_two .text .red {
+    color: var(--c2);
+}
+.layer_two .btn {
+    padding: var(--px16) var(--px120);
+    font-size: var(--px32);
+    color: var(--c2);
+    border: var(--px2) solid var(--c2);
+    border-radius: var(--px16);
+    -webkit-border-radius: var(--px16);
+    -moz-border-radius: var(--px16);
+    -ms-border-radius: var(--px16);
+    -o-border-radius: var(--px16);
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    cursor: pointer; /* Menambahkan cursor pointer untuk tombol */
+}
+.layer_two .btn:hover {
+    color: var(--text);
+    background-color: var(--c2);
+    transform: scale(1.05); /* Efek sedikit membesar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+}
+
+.layer_three,
+.layer_four {
+    padding: var(--px64) var(--px160);
+}
+.layer_three {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--c2);
+}
+.layer_three img {
+    width: 312px;
+    height: auto;
+}
+.layer_three .text {
+    width: 60%;
+    font-size: var(--px32);
+    text-align: justify;
+    color: var(--text);
+}
+.layer_four .line {
+    width: 16rem;
+    height: 0.375rem;
+}
+.layer_four {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;    
+    background-color: var(--c3);
+}
+.layer_four .white,
+.layer_four .red {
+    font-size: var(--px32);
+    font-weight: 700;
+}
+.layer_four .white {
+    color: var(--text);
+}
+.layer_four .red {
+    color: var(--c2);
+}
+/* content */

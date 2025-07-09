@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+a, button {
+    margin: 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+button {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+form {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin: 10px 0;
+}
+input, select {
+    padding: 8px;
+    width: 200px;
+}

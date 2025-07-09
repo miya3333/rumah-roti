@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --c1: #561C24;
+    --c2: #6D2932;
+    --c3: #C7B7A3;
+    --c4: #E8D8C4;
+    --c5: #1e1e1e;
+    --text: #ffffff;
+    --text2: #757575;
+    --px2: 0.125rem;
+    --px8: 0.5rem;
+    --px12: 0.75rem;
+    --px16: 1rem;
+    --px20: 1.25rem;
+    --px24: 1.5rem;
+    --px32: 2rem;
+    --px40: 2.5rem;
+    --px48: 3rem;
+    --px56: 3.5rem;
+    --px64: 4rem;
+    --px72: 4.5rem;
+    --px80: 5rem;
+    --px84: 5.25rem;
+    --px88: 5.5rem;
+    --px96: 6rem;
+    --px104: 6.5rem;
+    --px112: 7rem;
+    --px120: 7.5rem;
+    --px128: 8rem;
+    --px160: 10rem;
+    --px192: 12rem;
+    --font1: "Poltawski Nowy", serif;
+    --font2: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ini penting untuk memastikan ukuran elemen sesuai ekspektasi */
+}
+
+body {
+    background-color: var(--text);
+    color: var(--c5);
+    font-family: var(--font2);
+}
+
+.content-shop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-product {
+    width: 100%;
+}
+.product-price {
+    margin-bottom: var(--px32);
+}
+.title {
+    font-size: var(--px32);
+    font-family: var(--font2);
+    color: var(--c2);
+    text-align: center;
+}
+.content_bread, .content_cake, .content_danish, .content_dcake, .content_toast {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: var(--px32);
+}
+.bread_cake, .cake_cake, .danish_cake, .dcake_cake, .toast_cake {
+    width: 352px;
+    padding: var(--px12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--px16);
+    border: var(--px2) solid var(--c2);
+    border-radius: var(--px24);
+}
+.bread_cake img, .cake_cake img, .danish_cake img, .dcake_cake img, .toast_cake img {
+    width: 328px;
+    height: 325px;
+    object-fit: cover;
+    border-radius: var(--px16);
+}
+.name-cake, .harga {
+    font-size: var(--px20);
+    font-family: var(--font2);
+    color: var(--text2);
+    text-align: center;
+}
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    text-decoration: none;
+}

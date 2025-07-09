@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --c1: #561C24;
+    --c2: #6D2932;
+    --c3: #C7B7A3;
+    --c4: #E8D8C4;
+    --text: #ffffff;
+    --px2: 0.125rem;
+    --px8: 0.5rem;
+    --px16: 1rem;
+    --px20: 1.25rem;
+    --px24: 1.5rem;
+    --px32: 2rem;
+    --px40: 2.5rem;
+    --px48: 3rem;
+    --px50: 3.125rem;
+    --px56: 3.5rem;
+    --px64: 4rem;
+    --px72: 4.5rem;
+    --px80: 5rem;
+    --px84: 5.25rem;
+    --px88: 5.5rem;
+    --px96: 6rem;
+    --px104: 6.5rem;
+    --px112: 7rem;
+    --px120: 7.5rem;
+    --px128: 8rem;
+    --px160: 10rem;
+    --font1: "Poltawski Nowy", serif;
+    --font2: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ini penting untuk memastikan ukuran elemen sesuai ekspektasi */
+}
+
+body {
+    background-color: var(--text);
+}
+
+/* content */
+.content {
+    padding: var(--px64) var(--px160);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.taste {
+    padding: var(--px16) var(--px50);
+    font-size: var(--px32);
+    font-family: var(--font2);
+    font-weight: bold;
+    color: var(--c2);
+    border: var(--px2) solid var(--c2);
+    border-radius: var(--px16);
+    -webkit-border-radius: var(--px16);
+    -moz-border-radius: var(--px16);
+    -ms-border-radius: var(--px16);
+    -o-border-radius: var(--px16);
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+.taste:hover {
+    color: var(--text);
+    background-color: var(--c2);
+    transform: scale(1.05); /* Efek sedikit membesar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+}
+#cake {
+    color: var(--text);
+    background-color: var(--c2);
+}
+/* content */

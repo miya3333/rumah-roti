@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --c1: #561C24;
+    --c2: #6D2932;
+    --c3: #C7B7A3;
+    --c4: #E8D8C4;
+    --text: #ffffff;
+    --text2: #1e1e1e;
+    --px2: 0.125rem;
+    --px8: 0.5rem;
+    --px12: 0.75rem;
+    --px16: 1rem;
+    --px20: 1.25rem;
+    --px24: 1.5rem;
+    --px32: 2rem;
+    --px40: 2.5rem;
+    --px48: 3rem;
+    --px50: 3.125rem;
+    --px56: 3.5rem;
+    --px64: 4rem;
+    --px72: 4.5rem;
+    --px80: 5rem;
+    --px84: 5.25rem;
+    --px88: 5.5rem;
+    --px96: 6rem;
+    --px104: 6.5rem;
+    --px112: 7rem;
+    --px120: 7.5rem;
+    --px128: 8rem;
+    --px160: 10rem;
+    --font1: "Poltawski Nowy", serif;
+    --font2: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ini penting untuk memastikan ukuran elemen sesuai ekspektasi */
+}
+
+body {
+    background-color: var(--text);
+}
+
+.content_dcake {
+    padding: 0 var(--px160) var(--px64) var(--px160);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: var(--px32);
+}
+.dcake_cake {
+    width: 352px;
+    padding: var(--px12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--px16);
+    border: var(--px2) solid var(--c2);
+    border-radius: var(--px24);
+}
+.dcake_cake img {
+    width: 328px;
+    height: 325px;
+    object-fit: cover;
+    border-radius: var(--px16);
+}
+.dcake_cake p {
+    font-size: var(--px20);
+    font-family: var(--font2);
+    color: var(--text2);
+    text-align: center;
+}
+.dcake_cake::before {
+    content: '';
+    position: absolute;
+    top: var(--px12);
+    width: 328px;
+    height: 325px;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: var(--px16);
+}
+.dcake_cake:hover::before {
+    opacity: 1;
+}

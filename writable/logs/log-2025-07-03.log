@@ -1,0 +1,36 @@
+CRITICAL - 2025-07-03 05:49:35 --> ErrorException: Undefined variable $product
+[Method: GET, Route: shop]
+in APPPATH\Views\partials\content_shop.php on line 23.
+ 1 APPPATH\Views\partials\content_shop.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\rumah-roti\\app\\Views\\partials\\content_shop.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rumah-roti\\app\\Views\\partials\\content_shop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('partials/content_shop', [], true)
+ 5 APPPATH\Views\pages\shop.php(12): view('partials/content_shop')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rumah-roti\\app\\Views\\pages\\shop.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/shop', [], true)
+ 9 APPPATH\Controllers\Shop.php(9): view('pages/shop')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Shop->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-03 06:02:35 --> ErrorException: Undefined variable $product
+[Method: GET, Route: shop]
+in APPPATH\Views\partials\content_shop.php on line 23.
+ 1 APPPATH\Views\partials\content_shop.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\rumah-roti\\app\\Views\\partials\\content_shop.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rumah-roti\\app\\Views\\partials\\content_shop.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('partials/content_shop', [], true)
+ 5 APPPATH\Views\pages\shop.php(12): view('partials/content_shop')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\rumah-roti\\app\\Views\\pages\\shop.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/shop', [], true)
+ 9 APPPATH\Controllers\Shop.php(9): view('pages/shop')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Shop->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
