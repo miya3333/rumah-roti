@@ -1,5 +1,9 @@
-> 💡 **Kelompok 5:**
-> Jangan di-skip! Ini penting banget.
+> [!IMPORTANT]
+> # Kelompok 5:
+> * Aldi Hermansyah '312310200'
+> * Dzikry Eza Yusuf '312310731'
+> * Pranaja Widyadhana Wardana '312310194'
+> * Sartika Agustin '312310174'
 
 [Link Poster](http://bit.ly/4ktvD0Y)
 
