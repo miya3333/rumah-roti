@@ -1,11 +1,4 @@
 > [!IMPORTANT]
-> # Kelompok 5:
-> * Aldi Hermansyah `312310200`
-> * Dzikry Eza Yusuf `312310731`
-> * Pranaja Widyadhana Wardana `312310194`
-> * Sartika Agustin `312310174`
-
-> [!IMPORTANT]
 > ### Kelompok 5:
 >
 > <table>
@@ -14,20 +7,20 @@
 >     <th>NIM</th>
 >   </tr>
 >   <tr>
->     <td>abc</td>
->     <td><code>123</code></td>
+>     <td>Aldi Hermansyah</td>
+>     <td><code>312310200</code></td>
 >   </tr>
 >   <tr>
->     <td>abc</td>
->     <td><code>123</code></td>
+>     <td>Dzikry Eza Yusuf</td>
+>     <td><code>312310731</code></td>
 >   </tr>
 >   <tr>
->     <td>abc</td>
->     <td><code>123</code></td>
+>     <td>Pranaja Widyadhana Wardana</td>
+>     <td><code>312310194</code></td>
 >   </tr>
 >   <tr>
->     <td>abc</td>
->     <td><code>123</code></td>
+>     <td>Sartika Agustin</td>
+>     <td><code>312310174</code></td>
 >   </tr>
 > </table>
 
