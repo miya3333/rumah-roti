@@ -1,7 +1,8 @@
-# Project Website Rumah Roti
+# Laporan Proyek Pemrograman Web
+
+## RUMAH ROTI
 
 ## Kelompok 5:
-
 <table>
   <tr>
     <th>Nama</th>
@@ -24,6 +25,14 @@
     <td>312310174</td>
   </tr>
 </table>
+
+# Penentuan Ide Proyek
+## Fitur Utama
+* **Halaman Beranda (Homepage)**: Berisi tampilan awal dari website yang menampilkan rekomendasi produk.
+Daftar Produk Roti (Menu): Menampilkan daftar produk yang disediakan Rumah Roti.
+* **Halaman Informasi Toko (About Us)**: Menampilkan informasi tentang filosofi Rumah Roti.
+* **Halaman Lokasi Toko (Outlet)**: Menampilkan informasi lokasi tempat Rumah Roti berada.
+* **Halaman kontak (Contact)**: Menampilkan informasi alamat toko, jam operasional, dan menyediakan tombol langsung ke Whatsapp untuk menghubungi toko untuk memudahkan pelanggan yang ingin bertanya langsung.
 
 ## Link Dokumentasi Proyek
 [Link Poster](http://bit.ly/4ktvD0Y) - 
