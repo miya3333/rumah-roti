@@ -35,11 +35,12 @@ Membangun sebuah website yang berfungsi sebagai etalase digital untuk menampilka
 
 ## Fitur Utama
 * **Halaman Beranda (Homepage)**: Berisi tampilan awal dari website yang menampilkan rekomendasi produk.
-Daftar Produk Roti (Menu): Menampilkan daftar produk yang disediakan Rumah Roti.
+* **Daftar Produk Roti (Menu)**: Menampilkan daftar produk yang disediakan Rumah Roti.
 * **Halaman Informasi Toko (About Us)**: Menampilkan informasi tentang filosofi Rumah Roti.
 * **Halaman Lokasi Toko (Outlet)**: Menampilkan informasi lokasi tempat Rumah Roti berada.
 * **Halaman kontak (Contact)**: Menampilkan informasi alamat toko, jam operasional, dan menyediakan tombol langsung ke Whatsapp untuk menghubungi toko untuk memudahkan pelanggan yang ingin bertanya langsung.
-
+* **Daftar harga (Shop Now)**: Menampilkan daftar harga dari produk. 
+* **Halaman Admin**: Menampilkan halaman admin yang berisi manajemen produk roti.
 
 ---
 
