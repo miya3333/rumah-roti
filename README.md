@@ -1,3 +1,18 @@
+> [!NOTE]
+> Catatan penting bro!
+
+> [!TIP]
+> Tips biar hidup lebih mudah.
+
+> [!IMPORTANT]
+> Jangan di-skip! Ini penting banget.
+
+> [!WARNING]
+> Awas! Bisa bikin pusing kalau salah baca.
+
+> [!CAUTION]
+> Hati-hati, ini jebakan Batman.
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
