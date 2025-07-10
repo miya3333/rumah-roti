@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> ### Kelompok 5:
+> ## Kelompok 5:
 >
 > <table>
 >   <tr>
@@ -24,11 +24,11 @@
 >   </tr>
 > </table>
 
-[Link Poster](http://bit.ly/4ktvD0Y)
-
-[Link GiThub](https://github.com/miya3333/rumah-roti)
-
-[Link Demo](https://github.com/miya3333/rumah-roti)
+> [!CAUTION]
+> ## Link Dokumentasi Proyek
+> [Link Poster](http://bit.ly/4ktvD0Y)
+> [Link GiThub](https://github.com/miya3333/rumah-roti)
+> [Link Demo](https://github.com/miya3333/rumah-roti)
 > [!NOTE]
 > Catatan penting bro!
 
@@ -38,8 +38,7 @@
 > [!WARNING]
 > Awas! Bisa bikin pusing kalau salah baca.
 
-> [!CAUTION]
-> Hati-hati, ini jebakan Batman.
+
 
 # Framework yang dipakai ⬇️
 
