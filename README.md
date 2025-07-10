@@ -1,3 +1,8 @@
+[Link Pster](http://bit.ly/4ktvD0Y)
+
+[Link GiThub](https://github.com/miya3333/rumah-roti)
+
+[Link Demo](https://github.com/miya3333/rumah-roti)
 > [!NOTE]
 > Catatan penting bro!
 
