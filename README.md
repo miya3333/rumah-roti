@@ -8,27 +8,28 @@
 >   </tr>
 >   <tr>
 >     <td>Aldi Hermansyah</td>
->     <td><code>312310200</code></td>
+>     <td>312310200</td>
 >   </tr>
 >   <tr>
 >     <td>Dzikry Eza Yusuf</td>
->     <td><code>312310731</code></td>
+>     <td>312310731</td>
 >   </tr>
 >   <tr>
 >     <td>Pranaja Widyadhana Wardana</td>
->     <td><code>312310194</code></td>
+>     <td>312310194</td>
 >   </tr>
 >   <tr>
 >     <td>Sartika Agustin</td>
->     <td><code>312310174</code></td>
+>     <td>312310174</td>
 >   </tr>
 > </table>
 
 > [!CAUTION]
 > ## Link Dokumentasi Proyek
-> [Link Poster](http://bit.ly/4ktvD0Y)
-> [Link GiThub](https://github.com/miya3333/rumah-roti)
+> [Link Poster](http://bit.ly/4ktvD0Y) - 
+> [Link GiThub](https://github.com/miya3333/rumah-roti) - 
 > [Link Demo](https://github.com/miya3333/rumah-roti)
+
 > [!NOTE]
 > Catatan penting bro!
 
