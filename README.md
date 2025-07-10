@@ -24,13 +24,24 @@
   </tr>
 </table>
 
+---
+
 # Penentuan Ide Proyek
+## Latar Belakang
+Website ini bertujuan membantu toko roti menjangkau lebih banyak pelanggan, meningkatkan efisiensi layanan, serta menjadi sarana pembelajaran praktis bagi tim pengembang dalam menerapkan ilmu pemrograman web dari tahap perencanaan hingga evaluasi. Laporan ini mendokumentasikan proses pengembangan sebagai bentuk akuntabilitas akademik dan referensi pengembangan lebih lanjut.
+
+## Tujuan Proyek
+Membangun sebuah website yang berfungsi sebagai etalase digital untuk menampilkan produk-produk roti kepada pelanggan secara online.
+
 ## Fitur Utama
 * **Halaman Beranda (Homepage)**: Berisi tampilan awal dari website yang menampilkan rekomendasi produk.
 Daftar Produk Roti (Menu): Menampilkan daftar produk yang disediakan Rumah Roti.
 * **Halaman Informasi Toko (About Us)**: Menampilkan informasi tentang filosofi Rumah Roti.
 * **Halaman Lokasi Toko (Outlet)**: Menampilkan informasi lokasi tempat Rumah Roti berada.
 * **Halaman kontak (Contact)**: Menampilkan informasi alamat toko, jam operasional, dan menyediakan tombol langsung ke Whatsapp untuk menghubungi toko untuk memudahkan pelanggan yang ingin bertanya langsung.
+
+
+---
 
 ## Link Dokumentasi Proyek
 [Link Poster](http://bit.ly/4ktvD0Y) - 
