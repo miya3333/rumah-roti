@@ -1,38 +1,35 @@
-> [!NOTE]
-> # Project Website Rumah Roti
+# Project Website Rumah Roti
 
-> [!IMPORTANT]
-> ## Kelompok 5:
->
-> <table>
->   <tr>
->     <th>Nama</th>
->     <th>NIM</th>
->   </tr>
->   <tr>
->     <td>Aldi Hermansyah</td>
->     <td>312310200</td>
->   </tr>
->   <tr>
->     <td>Dzikry Eza Yusuf</td>
->     <td>312310731</td>
->   </tr>
->   <tr>
->     <td>Pranaja Widyadhana Wardana</td>
->     <td>312310194</td>
->   </tr>
->   <tr>
->     <td>Sartika Agustin</td>
->     <td>312310174</td>
->   </tr>
-> </table>
+## Kelompok 5:
 
-> [!CAUTION]
-> ## Link Dokumentasi Proyek
-> [Link Poster](http://bit.ly/4ktvD0Y) - 
-> [Link GiThub](https://github.com/miya3333/rumah-roti) - 
-> [Link Demo](https://github.com/miya3333/rumah-roti) - 
-> [Link Figma](https://www.figma.com/design/kfcJXoDy8FGFOzYLEEz4Ly/project_web2?node-id=0-1&t=boOK8RvDKZyYTVwC-1)
+<table>
+  <tr>
+    <th>Nama</th>
+    <th>NIM</th>
+  </tr>
+  <tr>
+    <td>Aldi Hermansyah</td>
+    <td>312310200</td>
+  </tr>
+  <tr>
+    <td>Dzikry Eza Yusuf</td>
+    <td>312310731</td>
+  </tr>
+  <tr>
+    <td>Pranaja Widyadhana Wardana</td>
+    <td>312310194</td>
+  </tr>
+  <tr>
+    <td>Sartika Agustin</td>
+    <td>312310174</td>
+  </tr>
+</table>
+
+## Link Dokumentasi Proyek
+[Link Poster](http://bit.ly/4ktvD0Y) - 
+[Link GiThub](https://github.com/miya3333/rumah-roti) - 
+[Link Demo](https://github.com/miya3333/rumah-roti) - 
+[Link Figma](https://www.figma.com/design/kfcJXoDy8FGFOzYLEEz4Ly/project_web2?node-id=0-1&t=boOK8RvDKZyYTVwC-1)
 
 # Framework yang dipakai ⬇️
 ## CodeIgniter 4 Framework
