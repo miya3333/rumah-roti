@@ -1,6 +1,35 @@
-| Kelompok | Anggota |
-|----------|---------|
-| > [!IMPORTANT] <br> **Kelompok 5:** <br>• abc `123` <br>• abc `123` <br>• abc `123` <br>• abc `123` | Catatan penting |
+> [!IMPORTANT]
+> # Kelompok 5:
+> * Aldi Hermansyah `312310200`
+> * Dzikry Eza Yusuf `312310731`
+> * Pranaja Widyadhana Wardana `312310194`
+> * Sartika Agustin `312310174`
+
+> [!IMPORTANT]
+> ### Kelompok 5:
+>
+> <table>
+  <tr>
+    <th>Nama</th>
+    <th>NIM</th>
+  </tr>
+  <tr>
+    <td>abc</td>
+    <td><code>123</code></td>
+  </tr>
+  <tr>
+    <td>abc</td>
+    <td><code>123</code></td>
+  </tr>
+  <tr>
+    <td>abc</td>
+    <td><code>123</code></td>
+  </tr>
+  <tr>
+    <td>abc</td>
+    <td><code>123</code></td>
+  </tr>
+</table>
 
 [Link Poster](http://bit.ly/4ktvD0Y)
 
