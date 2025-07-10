@@ -31,14 +31,7 @@
 > [Link Demo](https://github.com/miya3333/rumah-roti) - 
 > [Link Figma](https://www.figma.com/design/kfcJXoDy8FGFOzYLEEz4Ly/project_web2?node-id=0-1&t=boOK8RvDKZyYTVwC-1)
 
-> [!NOTE]
-> Catatan penting bro!
-
-> [!TIP]
-> Tips biar hidup lebih mudah.
-
-> [!WARNING]
-> # Framework yang dipakai ⬇
+# Framework yang dipakai ⬇️
 ## CodeIgniter 4 Framework
 
 ### What is CodeIgniter?
