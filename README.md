@@ -1,3 +1,6 @@
+> [!Kelompok5]
+> Jangan di-skip! Ini penting banget.
+
 [Link Poster](http://bit.ly/4ktvD0Y)
 
 [Link GiThub](https://github.com/miya3333/rumah-roti)
@@ -8,9 +11,6 @@
 
 > [!TIP]
 > Tips biar hidup lebih mudah.
-
-> [!IMPORTANT]
-> Jangan di-skip! Ini penting banget.
 
 > [!WARNING]
 > Awas! Bisa bikin pusing kalau salah baca.
