@@ -1,8 +1,6 @@
 # Laporan Proyek Pemrograman Web
 
-## RUMAH ROTI
-
-## Kelompok 5:
+## RUMAH ROTI - Kelompok 5:
 <table>
   <tr>
     <th>Nama</th>
