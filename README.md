@@ -33,6 +33,12 @@ Membangun sebuah website yang berfungsi sebagai etalase digital untuk menampilka
 [Link Demo](https://youtu.be/8Z8wikrl_3A) - 
 [Link Figma](https://www.figma.com/design/kfcJXoDy8FGFOzYLEEz4Ly/project_web2?node-id=0-1&t=boOK8RvDKZyYTVwC-1)
 
+ <br>
+
+[![YouTube](https://img.shields.io/badge/YouTube-Video-red?logo=youtube)](https://youtu.be/VIDEO_ID)
+[![Figma](https://img.shields.io/badge/Figma-Design-blue?logo=figma)](https://figma.com/file/yourfileid)
+[![Canva](https://img.shields.io/badge/Canva-Design-purple?logo=canva)](https://canva.com)
+
 # Framework yang dipakai ⬇️
 ## CodeIgniter 4 Framework
 
