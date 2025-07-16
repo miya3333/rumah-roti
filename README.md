@@ -33,7 +33,7 @@ Membangun sebuah website yang berfungsi sebagai etalase digital untuk menampilka
 [![YouTube](https://img.shields.io/badge/Link-Demo-red?logo=youtube)](https://youtu.be/8Z8wikrl_3A)
 [![Figma](https://img.shields.io/badge/Link-Figma-blue?logo=figma)](https://www.figma.com/design/kfcJXoDy8FGFOzYLEEz4Ly/project_web2?node-id=0-1&t=boOK8RvDKZyYTVwC-1)
 
-# Framework yang dipakai ⬇️
+# Framework yang dipakai
 ## CodeIgniter 4 Framework
 
 ### What is CodeIgniter?
