@@ -30,7 +30,7 @@ Membangun sebuah website yang berfungsi sebagai etalase digital untuk menampilka
 ## Link Dokumentasi Proyek
 [Link Poster](http://bit.ly/4ktvD0Y) - 
 [Link GiThub](https://github.com/miya3333/rumah-roti) - 
-[Link Demo](https://github.com/miya3333/rumah-roti) - 
+[Link Demo](https://youtu.be/8Z8wikrl_3A) - 
 [Link Figma](https://www.figma.com/design/kfcJXoDy8FGFOzYLEEz4Ly/project_web2?node-id=0-1&t=boOK8RvDKZyYTVwC-1)
 
 # Framework yang dipakai ⬇️
