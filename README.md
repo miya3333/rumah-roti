@@ -36,7 +36,7 @@ Membangun sebuah website yang berfungsi sebagai etalase digital untuk menampilka
  <br>
 
 [![Canva](https://img.shields.io/badge/Canva-Design-purple?logo=canva)](http://bit.ly/4ktvD0Y)
-[Lihat repo di GitHub](https://github.com/miya3333/rumah-roti)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?logo=github&logoColor=white)](https://github.com/miya3333/rumah-roti)
 [![YouTube](https://img.shields.io/badge/YouTube-Video-red?logo=youtube)](https://youtu.be/8Z8wikrl_3A)
 [![Figma](https://img.shields.io/badge/Figma-Design-blue?logo=figma)](https://www.figma.com/design/kfcJXoDy8FGFOzYLEEz4Ly/project_web2?node-id=0-1&t=boOK8RvDKZyYTVwC-1)
 
