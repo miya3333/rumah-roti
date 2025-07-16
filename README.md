@@ -19,7 +19,7 @@
     <td>312310194</td>
   </tr>
   <tr>
-    <td>Sartika Agustin</td>
+    <td>[Sartika Agustin](https://github.com/sartika312310174)</td>
     <td>312310174</td>
   </tr>
 </table>
