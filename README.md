@@ -8,7 +8,6 @@ Nama - NIM: <br>
 [Sartika Agustin - 312310174](https://github.com/sartika312310174)
 
 ---
-[halooo(https://dummyimage.com/1x1/ffffff/ffffff)](https://github.com/test) <br>
 
 # Penentuan Ide Proyek
 ## Latar Belakang
