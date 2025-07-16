@@ -1,13 +1,14 @@
 # Laporan Proyek Pemrograman Web
 
 ## RUMAH ROTI - Kelompok 5:
-Nama - NIM <br>
+Nama - NIM: <br>
 [Aldi Hermansyah - 312310200](https://github.com/miya3333) <br>
 [Dzikry Eza Yusuf - 312310731](https://github.com/ezaaysf) <br>
 [Pranaja Widyadhana Wardana - 312310194](https://github.com/Pranaa22) <br>
 [Sartika Agustin - 312310174](https://github.com/sartika312310174)
 
 ---
+[![test](https://dummyimage.com/1x1/ffffff/ffffff)](https://github.com/test) <br>
 
 # Penentuan Ide Proyek
 ## Latar Belakang
