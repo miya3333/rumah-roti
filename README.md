@@ -1,28 +1,9 @@
 # Laporan Proyek Pemrograman Web
 
 ## RUMAH ROTI - Kelompok 5:
-<table>
-  <tr>
-    <th>Nama</th>
-    <th>NIM</th>
-  </tr>
-  <tr>
-    <td>Aldi Hermansyah</td>
-    <td>312310200</td>
-  </tr>
-  <tr>
-    <td>Dzikry Eza Yusuf</td>
-    <td>312310731</td>
-  </tr>
-  <tr>
-    <td>Pranaja Widyadhana Wardana</td>
-    <td>312310194</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+[Aldi Hermansyah - 312310200](https://github.com/miya3333)
+[Dzikry Eza Yusuf - 312310731](https://github.com/ezaaysf)
+[Pranaja Widyadhana Wardana - 312310194](https://github.com/Pranaa22)
 [Sartika Agustin - 312310174](https://github.com/sartika312310174)
 
 ---
